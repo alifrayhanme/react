@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0f172a;
+  color: white;
+}
+header div a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+header div a:hover {
+  color: #7dd3fc;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f1f5f9;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+
+
+form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
